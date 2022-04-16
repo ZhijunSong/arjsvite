@@ -1,10 +1,20 @@
 {
   "name": "arjsvite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ar-js-org/ar.js": "^3.4.0-alpha-rc2",
+    "shader-park-core": "^0.1.14",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.2"
   },
   "repository": {
     "type": "git",
@@ -17,3 +27,4 @@
   },
   "homepage": "https://github.com/ZhijunSong/arjsvite#readme"
 }
+
